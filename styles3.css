@@ -1,0 +1,510 @@
+#header {
+    position: fixed;
+    color:  #00AEEF;
+    background-color: #1e1e1e;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' viewBox='0 0 192 192'%3E%3Cpath fill='%23373638' fill-opacity='0.49' d='M192 15v2a11 11 0 0 0-11 11c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H145v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11 13 13 0 1 1 .02 26 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43a6.1 6.1 0 0 0-3.03 4.87V143h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 181 164a11 11 0 0 0 11 11v2a13 13 0 0 1-13-13 12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84a6.1 6.1 0 0 0-4.87-3.03H145v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 124 181a11 11 0 0 0-11 11h-2a13 13 0 0 1 13-13c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43a6.1 6.1 0 0 0 3.03-4.87V145h-35.02a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 107 124a11 11 0 0 0-22 0c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H49v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11A13 13 0 0 1 81 192h-2a11 11 0 0 0-11-11c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V145H11.98a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 0 1 0 177v-2a11 11 0 0 0 11-11c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H47v-35.02a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 28 109a13 13 0 1 1 0-26c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43A6.1 6.1 0 0 0 47 84.02V49H11.98a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 11 28 11 11 0 0 0 0 17v-2a13 13 0 0 1 13 13c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84A6.1 6.1 0 0 0 11.98 47H47V11.98a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 68 11 11 11 0 0 0 79 0h2a13 13 0 0 1-13 13 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43A6.1 6.1 0 0 0 49 11.98V47h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 85 68a11 11 0 0 0 22 0c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H143V11.98a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 124 13a13 13 0 0 1-13-13h2a11 11 0 0 0 11 11c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V47h35.02a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 179 28a13 13 0 0 1 13-13zM84.02 143a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 83 124a13 13 0 1 1 26 0c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84a6.1 6.1 0 0 0 4.87 3.03H143v-35.02a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 164 107a11 11 0 0 0 0-22c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V49h-35.02a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 1 1 83 68a12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84A6.1 6.1 0 0 0 84.02 49H49v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 28 85a11 11 0 0 0 0 22c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V143h35.02z'%3E%3C/path%3E%3C/svg%3E");    
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Goudy Bookletter 1911", serif;
+    z-index: 9;
+}
+
+.text-bordered {
+    color: orange; /* Text color */
+    text-decoration:dashed;
+}
+
+#portfolio {
+    margin-left: 10%;
+    padding-right: 0;
+    font-size: 60px;
+}
+
+#contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.in_values {
+    padding: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+body{
+    background-color: #ffffff;
+    color: white;
+    padding-top: 100px;
+    overflow: auto;
+    flex-direction: column;
+    margin: 0;
+    height: auto;
+}
+
+.container, .aboutmebox, .skillsbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.homebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    background-color: white;
+    height: 87vh; /* Adjusted to vh (viewport height) */
+    width: 100%;
+    z-index: 2;
+    background-image: url('images/bgg.png');
+    background-size: cover; /* Adjusts the image to cover the entire container */
+    background-position: top; /* Centers the image */
+    background-repeat: no-repeat; /* Ensures the image doesn’t repeat */
+    margin-left: 0;
+    position: relative; /* Allows positioning of text container */
+}
+
+.image-container {
+    margin-inline: 30px;
+    width: 300px;
+    height: 580px;
+    background-image: url('images/meeeee.png');
+    background-size: cover; /* Ensures the image scales to fit the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center bottom; /* Centers the image horizontally and aligns it to the bottom */
+}
+
+.text-container {
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centers the text container */
+}
+
+.haha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centers the content inside haha */
+}
+
+.haha p {
+    text-align: center;
+}
+
+.textt {
+    color: #0056b3;
+    text-shadow: 0 0 5px black; /* Increase opacity of text border on hover */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers the content inside textt */
+    background-color: rgba(0, 0, 0, 0.75); /* Slightly adjusted for better readability */
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text-container h1 {
+    font-size: 2.5em; /* Adjust size as needed */
+    margin: 0.5em 0;
+}
+
+.text-container p {
+    font-size: 4.2em; /* Adjust size as needed */
+    margin: 0.5em 0;
+}
+
+.text-container button {
+    background-color: orange; /* Change button color as needed */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+    font-weight: bold;
+    border: 2px solid #000;
+    text-shadow: 0 0 5px black; /* Increase opacity of text border on hover */
+
+}
+
+.text-container button:hover {
+    background-color: #0056b3; /* Change hover color as needed */
+}
+
+.aboutmebox {
+    padding: 20px;
+    padding-top: 90px;
+    height: 90dvh;
+    background-color: #070707;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#aboutme{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-offset: 10px; 
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+
+.span-col {
+    color:orange;
+}
+
+.span-col1{
+    color: black;
+}
+
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+#content p{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+#downloadBtn {
+    background-color:black; /* Change to white on hover */
+    color: #ffbf35; /* Change text color on hover */
+    border: 2px solid #ffbf35; /* Change border color on hover */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 70px;
+    transition: 0.4s;
+    font-weight: bold; /* Bold text */
+    overflow: hidden;
+    text-shadow: 0 0 0 black; /* Initial border effect */
+    z-index: 2;
+}
+
+#downloadBtn:hover {
+    background-color: #ffbf35; /* Yellow */
+    border: 2px solid black; /* Black border */
+    color: black; /* Text color */
+    text-shadow: 0 0 5px black; /* Increase opacity of text border on hover */
+}
+
+#icons a {
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #ffbf35;
+    color: #ffbf35; /* Yellow color for the icon */
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+#icons a:hover {
+    background-color: #ffbf35;
+    color: black; /* Change color on hover if needed */
+}
+
+.skillsbox {
+    background-color: #808080;
+    background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M81.28 88H68.413l19.298 19.298L81.28 88zm2.107 0h13.226L90 107.838 83.387 88zm15.334 0h12.866l-19.298 19.298L98.72 88zm-32.927-2.207L73.586 78h32.827l.5.5 7.294 7.293L115.414 87l-24.707 24.707-.707.707L64.586 87l1.207-1.207zm2.62.207L74 80.414 79.586 86H68.414zm16 0L90 80.414 95.586 86H84.414zm16 0L106 80.414 111.586 86h-11.172zm-8-6h11.173L98 85.586 92.414 80zM82 85.586L87.586 80H76.414L82 85.586zM17.414 0L.707 16.707 0 17.414V0h17.414zM4.28 0L0 12.838V0h4.28zm10.306 0L2.288 12.298 6.388 0h8.198zM180 17.414L162.586 0H180v17.414zM165.414 0l12.298 12.298L173.612 0h-8.198zM180 12.838L175.72 0H180v12.838zM0 163h16.413l.5.5 7.294 7.293L25.414 172l-8 8H0v-17zm0 10h6.613l-2.334 7H0v-7zm14.586 7l7-7H8.72l-2.333 7h8.2zM0 165.414L5.586 171H0v-5.586zM10.414 171L16 165.414 21.586 171H10.414zm-8-6h11.172L8 170.586 2.414 165zM180 163h-16.413l-7.794 7.793-1.207 1.207 8 8H180v-17zm-14.586 17l-7-7h12.865l2.333 7h-8.2zM180 173h-6.613l2.334 7H180v-7zm-21.586-2l5.586-5.586 5.586 5.586h-11.172zM180 165.414L174.414 171H180v-5.586zm-8 5.172l5.586-5.586h-11.172l5.586 5.586zM152.933 25.653l1.414 1.414-33.94 33.942-1.416-1.416 33.943-33.94zm1.414 127.28l-1.414 1.414-33.942-33.94 1.416-1.416 33.94 33.943zm-127.28 1.414l-1.414-1.414 33.94-33.942 1.416 1.416-33.943 33.94zm-1.414-127.28l1.414-1.414 33.942 33.94-1.416 1.416-33.94-33.943zM0 85c2.21 0 4 1.79 4 4s-1.79 4-4 4v-8zm180 0c-2.21 0-4 1.79-4 4s1.79 4 4 4v-8zM94 0c0 2.21-1.79 4-4 4s-4-1.79-4-4h8zm0 180c0-2.21-1.79-4-4-4s-4 1.79-4 4h8z' fill='%231f1f1f' fill-opacity='0.18' fill-rule='evenodd'/%3E%3C/svg%3E");    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    padding: 120px 10px;
+    border-radius: 20px;
+    border:2px solid #1e1e1e;
+}
+
+.skillsbox h1{
+    padding-top: 0;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.skilltext {
+    justify-content: center;
+    align-content: center;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 70%;
+    background-color: #eaa819;
+    border-radius: 30px;
+    border: 2px solid #000;
+    margin: 10px;
+    color: black;
+}
+
+.skill {
+    margin: 20px;
+    text-align: center;
+}
+
+canvas {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+
+
+
+.workbox {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#myworks {
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+.workbox {
+    background-color: #ffbb28;
+    margin: 20px;
+    color: black;
+    border-radius: 20px;
+    border:2px solid#000;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items vertically centered */
+    padding: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+
+.isro-logo {
+    padding: 20px;
+    display: inline-block; /* Ensure the element fits snugly around the image */
+    background-color: #f0f0f0; /* Background color of the container */
+    border: 5px solid #000; /* Border for the container */
+    border-radius: 50%; /* Make it circular */
+}
+
+.isro-logo img {
+    width: 200px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure no extra space around the image */
+
+}
+
+.iot-logo {
+    width: 250px; /* Set a fixed size for the container */
+    height: 250px;
+    display: inline-block; /* Ensure the element fits snugly around the image */
+    background-color: #f0f0f0; /* Background color of the container */
+    border-radius: 50%; /* Make the container circular */
+    border: 5px solid #000; /* Border for the container */
+}
+
+.iot-logo img {
+    width: 250px; /* Make the image fill the container */
+    height: 250px; /* Make the image fill the container */
+    object-fit:fill; /* Ensure the image covers the container */
+    display: block; /* Ensure no extra space around the image */
+    border-radius: 50%; /* Make the container circular */
+
+}
+
+.iot1-logo {
+    width: 400px; /* Set a fixed size for the container */
+    height: 190px;
+    display: inline-block; /* To ensure the background color and border wrap around the image */
+    background-color: #f0f0f0; /* Background color */
+    border: 2px solid #000; /* Border around the container */
+}
+
+.iot1-logo img {
+    width: 400px; /* Set the width of the image */
+    height: 190px; /* Maintain aspect ratio */
+    object-fit:cover;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center the text vertically */
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+}
+
+
+ .para h3{
+    padding:0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.projects p {
+    padding-top: 10px;
+    margin: 0; /* Remove default margin */
+    text-align: center;
+}
+
+
+
+
+/*CONTACT US SECTION*/
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+    color: black;
+  }
+  
+  .contact-section h1 {
+    -webkit-text-stroke: 1px  black; /* Border thickness and color */
+    font-weight: bold; /* Make it bold and beautiful */
+    font-size: 2.5rem;
+    color: #FEC010;
+    margin-bottom: 40px;
+  }
+  
+
+
+  .contact-form form {
+    max-width: 800px; /* Increased from a previous value */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 90%; /* Full width of the form container */
+    padding: 15px; /* Padding inside the input/textarea fields */
+    margin-bottom: 10px; /* Space between the fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #b3b3b3; /* Light gray for better visibility */
+    opacity: 1; /* Ensures placeholder is fully visible */
+  }
+  
+  .contact-form button {
+    width: 30%;
+    padding: 15px;
+    border: none;
+    background-color: #ffaa00;
+    color: #000;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e69900;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  
+  .info-box {
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .info-box i {
+    font-size: 2rem;
+    margin-bottom: 5px; /* Reduced from 10px to 5px */
+  }
+  
+  .info-box h3 {
+    margin: 10px 0; /* Adjusted margin for better spacing */
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .info-box p {
+    margin: 5px 0; /* Adjusted margin for better spacing */
+    font-size: 1rem;
+    color: #fff;
+  }
+  
